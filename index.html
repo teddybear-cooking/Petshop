@@ -1,0 +1,113 @@
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+<head> 
+
+    <meta charset="UTF-8"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <title>Pet Store</title> 
+
+    <link rel="stylesheet" href="common.css">
+
+    <link rel="stylesheet" href="styles.css"> 
+
+</head> 
+
+<body> 
+
+    <header> 
+
+        <h1>Welcome to Our Pet Store</h1> 
+
+        <nav> 
+
+            <a href="#">Home</a> 
+
+            <a href="pets.html">Pets</a> 
+
+            <a href="#contact">Contact</a> 
+
+        </nav> 
+
+    </header> 
+
+ 
+
+    <main> 
+
+        <section class="featured"> 
+
+            <h2>Featured Pets</h2> 
+
+            <div class="pet-list"> 
+
+                <div class="pet"> 
+
+                    <img src="img/dogs/dog01.jpg" alt="Cute Dog"> 
+
+                    <p>Charlie - Golden Retriever</p> 
+
+                    <button onclick="adoptPet()">Adopt Now</button> 
+
+                </div> 
+
+                <div class="pet"> 
+
+                    <img src="img/cats/cat01.jpg" alt="Cute Cat"> 
+
+                    <p>Milo - British Shorthair</p> 
+
+                    <button onclick="adoptPet()">Adopt Now</button> 
+
+                </div> 
+
+            </div> 
+
+        </section> 
+
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <div class="address">
+                    <h3>Our Location</h3>
+                    <p>JR7M+X82, Bang Sao Thong</p>
+                    <p>Bang Sao Thong District</p>
+                    <p>Samut Prakan 10540</p>
+                    <p>Thailand</p>
+                    <p>Phone: +66 2 123 4567</p>
+                    <p>Email: info@petstore.com</p>
+                </div>
+                <div class="map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3879.1234567890123!2d100.56789!3d13.45678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e28f3c3c3c3c3c%3A0x1234567890abcdef!2sBang%20Sao%20Thong%2C%20Bang%20Sao%20Thong%20District%2C%20Samut%20Prakan%2010540!5e0!3m2!1sen!2sth!4v1710831234567!5m2!1sen!2sth" 
+                        width="100%" 
+                        height="300" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+    </main> 
+
+ 
+
+    <footer id="footer"> 
+
+        <p>Contact us at: <strong>info@petstore.com</strong></p> 
+
+    </footer> 
+
+ 
+
+    <script src="script.js"></script> 
+
+</body> 
+
+</html> 

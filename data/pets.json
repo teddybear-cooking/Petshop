@@ -1,28 +1,74 @@
 {
-    "pets": [
-        {
-            "name": "Buddy",
-            "type": "Dog",
-            "age": 3,
-            "img": "img/dogs/dog01.jpg"
-        },
-        {
-            "name": "Max",
-            "type": "Dog",
-            "age": 3,
-            "img": "img/dogs/dog02.jpg"
-        },
-        {
-            "name": "Whiskers",
-            "type": "Cat",
-            "age": 2,
-            "img": "img/cats/cat01.jpg"
-        },
-        {
-            "name": "Mittens",
-            "type": "Cat",
-            "age": 2,
-            "img": "img/cats/cat02.jpg"
-        }
-    ]
+    "pets": {
+        "dogs": [
+            {
+                "name": "Buddy",
+                "type": "Dog",
+                "age": 3,
+                "img": "img/dogs/dog01.jpg"
+            },
+            {
+                "name": "Max",
+                "type": "Dog",
+                "age": 2,
+                "img": "img/dogs/dog02.jpg"
+            },
+            {
+                "name": "Rocky",
+                "type": "Dog",
+                "age": 4,
+                "img": "img/dogs/dog03.jpg"
+            }
+        ],
+        "cats": [
+            {
+                "name": "Whiskers",
+                "type": "Cat",
+                "age": 2,
+                "img": "img/cats/cat01.jpg"
+            },
+            {
+                "name": "Mittens",
+                "type": "Cat",
+                "age": 1,
+                "img": "img/cats/cat02.jpg"
+            },
+            {
+                "name": "Shadow",
+                "type": "Cat",
+                "age": 3,
+                "img": "img/cats/cat03.jpg"
+            }
+        ],
+        "capybaras": [
+            {
+                "name": "Cappy",
+                "type": "Capybara",
+                "age": 2,
+                "img": "img/capybaras/capybara01.jpg"
+            },
+            {
+                "name": "River",
+                "type": "Capybara",
+                "age": 1,
+                "img": "img/capybaras/capybara02.jpg"
+            }
+        ],
+        "birds": [
+            {
+                "name": "Sky",
+                "type": "Bird",
+                "age": 1,
+                "img": "img/dogs/birds/bird01.jpg"
+            },
+            {
+                "name": "Sunny",
+                "type": "Bird",
+                "age": 2,
+                "img": "img/dogs/birds/bird02.jpg"
+            }
+        ]
+    },
+    "totalPets": 10,
+    "availableTypes": ["dogs", "cats", "capybaras", "birds"]
 } 

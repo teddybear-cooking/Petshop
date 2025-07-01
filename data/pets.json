@@ -67,8 +67,28 @@
                 "age": 2,
                 "img": "img/dogs/birds/bird02.jpg"
             }
+        ],
+        "family_pets": [
+            {
+                "name": "Family Pet1",
+                "type": "Family Pet1",
+                "age": 1,
+                "img": "img/family_pets/family_pet1.jpg"
+            },
+            {
+                "name": "Family Pet2",
+                "type": "Family Pet2",
+                "age": 2,
+                "img": "img/family_pets/family_pet2.jpeg"
+            },
+            {
+                "name": "Family Pet3",
+                "type": "Family Pet3",
+                "age": 3,
+                "img": "img/family_pets/family_pet3.jpg"
+            }
         ]
     },
-    "totalPets": 10,
-    "availableTypes": ["dogs", "cats", "capybaras", "birds"]
+    "totalPets": 13,
+    "availableTypes": ["dogs", "cats", "capybaras", "birds", "family_pets"]
 } 
